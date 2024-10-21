@@ -50,4 +50,4 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/Abduqahhor2005/product-management-system.git
