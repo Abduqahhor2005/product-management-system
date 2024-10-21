@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Source>
+  <Products>
+    <Product>
+      <Id>1</Id>
+      <Name>Товар 1</Name>
+      <Description>Описание товара 1</Description>
+      <Quantity>100</Quantity>
+      <Price>10,99</Price>
+      <CategoryId>1</CategoryId>
+    </Product>
+    <Product>
+      <Id>2</Id>
+      <Name>Товар 2</Name>
+      <Description>Описание товара 2</Description>
+      <Quantity>50</Quantity>
+      <Price>20,99</Price>
+      <CategoryId>2</CategoryId>
+    </Product>
+  </Products>
+  <Categories>
+    <Category>
+      <Id>1</Id>
+      <Name>Категория 1</Name>
+      <Description>Описание категории 1</Description>
+    </Category>
+    <Category>
+      <Id>2</Id>
+      <Name>Категория 2</Name>
+      <Description>Описание категории 2</Description>
+    </Category>
+    <Category>
+      <Id>3</Id>
+      <Name>string</Name>
+      <Description>string</Description>
+    </Category>
+  </Categories>
+  <Suppliers>
+    <Supplier>
+      <Id>1</Id>
+      <Name>Поставщик 1</Name>
+      <ContactPerson>Контактное лицо 1</ContactPerson>
+      <Email>supplier1@example.com</Email>
+      <Phone>1234567890</Phone>
+    </Supplier>
+    <Supplier>
+      <Id>2</Id>
+      <Name>Поставщик 2</Name>
+      <ContactPerson>Контактное лицо 2</ContactPerson>
+      <Email>supplier2@example.com</Email>
+      <Phone>0987654321</Phone>
+    </Supplier>
+  </Suppliers>
+  <Orders>
+    <Order>
+      <Id>1</Id>
+      <ProductId>1</ProductId>
+      <Quantity>10</Quantity>
+      <OrderDate>2024-10-19T14:30:00</OrderDate>
+      <SupplierId>1</SupplierId>
+      <Status>В процессе</Status>
+    </Order>
+    <Order>
+      <Id>2</Id>
+      <ProductId>2</ProductId>
+      <Quantity>5</Quantity>
+      <OrderDate>2024-10-18T10:00:00</OrderDate>
+      <SupplierId>2</SupplierId>
+      <Status>Доставлен</Status>
+    </Order>
+  </Orders>
+</Source>
